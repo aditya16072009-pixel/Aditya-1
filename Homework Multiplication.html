@@ -1,0 +1,63 @@
+<html>
+
+<h1> <strong><mark>Question:</mark><br>
+
+Linus Torvalds is testing a program that processes data packets.
+
+The program processes 148 packets every second. The program runs continuously for 34 seconds.
+
+After the program finishes, the total number of processed packets is divided equally among 8 servers for storage.
+
+Later, the system administrator adds 120 extra packets to each server for testing. 
+
+<br><br>
+
+<mark>Question:</mark><br>
+How many packets does each server finally store?
+</strong>
+</h1>
+
+
+<body>
+    <button onclick="multiplication(34)"> <strong>FIRST step to your answer which MULTIPLIES </strong></button>
+
+    <button type="button" onclick="division()"><strong> SECOND step to your answer which DIVIDES </strong> </button>
+        <p id="div"></p>
+
+    <button onclick="add(120)"><Strong>The LAST step of your answer ADDS an amount, and this ADDS up to the FINAL ANSWER.</Strong></button>
+       
+       
+
+
+</body>
+
+<script>
+
+
+     function multiplication(x, y) 
+
+    {if (y === undefined) { y = 148; }
+        document.write(x * y);} 
+
+
+    function division() 
+        
+    { var a = 5032; var b = 8;
+     document.getElementById("div").innerHTML = a / b;}
+
+
+
+    function add(x, y) 
+
+    {if (y === undefined) { y = 629; }
+         document.write(x + y);} 
+
+
+
+
+</script>
+
+
+
+
+</html>
